@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n = 10;
+    int sum = 0;
+    for (int i = 0; i <= n + 1; i++)
+    {
+        if (i % 3 == 0)
+        {
+            sum += i;
+        }
+    }
+    cout << sum << endl;
+    return 0;
+}
